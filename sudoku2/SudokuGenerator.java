@@ -180,7 +180,6 @@ public class SudokuGenerator {
                 }
                 buffer.append(' ');
                 buffer.append(Integer.toHexString((grid[i][j])).toUpperCase()); // add value to String
-
                 // add a | to separate the regions
                 if (j % regionSize == regionSize - 1) {
                     buffer.append(" | ");
